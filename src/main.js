@@ -1,4 +1,4 @@
-function main(dtoIn) {
+export function main(dtoIn) {
   const { count, age } = dtoIn;
 
   const maleNames = [
