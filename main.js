@@ -66,4 +66,4 @@ function generateBirthdate(minAge, maxAge) {
   return new Date(randomTime).toISOString();
 }
 
-module.exports = main;
+export { main };
